@@ -20,7 +20,12 @@ export const ListStudents = () => {
       console.log(students);
   return (
     <>
-    
+        <ul>
+            {students.map(student=>(
+                <li key={student.id}>name:{student.name}</li>
+            )
+                )}
+        </ul>
     </>
   )
 }
