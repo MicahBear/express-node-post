@@ -1,4 +1,4 @@
-const pool = require ('../student/db')
+const pool = require ('./app/student/db')
 
 
 const getStudents = (req,res)=>{
