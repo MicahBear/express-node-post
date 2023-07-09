@@ -13,6 +13,6 @@ app.get('/', (req, res)=>{
 
 app.use('/api', studentRoutes)
 
-app.listen(port, function(){
+app.listen(port, ()=>{
     console.log(`server is running on port: ${port}`)
 })
