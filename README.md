@@ -13,3 +13,6 @@ The focus of this quick project:
 - Work with RESTful API
   - complete crud operations
   - understanding basic server and database setup 
+
+
+# Project is no longer active.  But will remain available for students
